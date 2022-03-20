@@ -1,0 +1,24 @@
+.actores {
+    background-color: $colorPrimary;
+    border-radius: $borderRadius;
+    padding: 4rem;
+    color: $colorDark;
+
+    &__nombres{
+        strong {
+            display: block;
+            font-size: $fontMedium;
+            border-bottom: 0.2rem solid $colorDark;
+            padding: 2rem 0;
+        }
+        span{
+            color: $colorLight;
+        }
+    
+    }
+}
+
+.actores__titulo{
+    font-size: $fontLarge
+    ;
+}

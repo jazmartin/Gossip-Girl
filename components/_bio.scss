@@ -1,0 +1,21 @@
+.bio {
+    &__about{
+        margin-top: 6rem;
+
+    &__sinopsis{
+        @extend .titleTemplate;
+        text-align: center;
+    }
+
+p{
+    font-size: $fontMedium;
+    text-align: center;
+}
+    }
+
+&__xoxo {
+    text-align: center;
+    margin-top: 3rem;
+    font-style: italic;
+}
+}

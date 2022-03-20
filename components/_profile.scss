@@ -1,0 +1,53 @@
+.profile {
+    text-align: center;
+
+    &__avatar {
+        border-radius: 30%;
+        width: 40rem;
+        height: auto;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        color: $colorPrimary;
+        margin: 2rem 0;
+        font-size: $fontTitle;
+    }
+
+    &__information{
+        @include cardContainer (space-around, 'available');
+
+    .species,
+    .status,
+    .genrer {
+        h3{
+            font-size: $fontMedium;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-weight: 700;
+            color: $colorDark;
+        }
+    }
+
+    &__origin{
+        border-radius: $borderRadius;
+        background-color: $colorLight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+        padding: 3rem 2rem;
+        margin-top: 2rem;
+
+        h3{
+            text-transform: uppercase;
+            font-size: $fontMedium;
+        }
+    
+    }
+    }
+
+
+}

@@ -1,0 +1,20 @@
+.gallery{
+    margin-top: 6rem;
+
+
+    &__title {
+        @extend .titleTemplate;
+        text-align: center;
+    }
+
+    &__container {
+        @include cardContainer (center, '');
+        
+        img{
+            width: 50rem;
+            height: auto;
+            margin: 0 1rem;
+            border-radius: $borderRadius;
+        }
+    }
+}
